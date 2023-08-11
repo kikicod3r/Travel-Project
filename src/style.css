@@ -1,0 +1,60 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/kuala-lumpur-city-centre.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 280px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+}
+header h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+}
+header a {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+  color: black;
+  padding: 16px 32px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+header a:hover {
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
