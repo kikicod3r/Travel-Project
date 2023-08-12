@@ -1,3 +1,7 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/kuala-lumpur-city-centre.jpg");
@@ -44,8 +48,57 @@ header a {
   margin-top: 20px;
 }
 header a:hover {
+  color: white;
+  background: black;
 }
-
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(20, 45, 76, 0.9),
+      rgba(20, 45, 76, 0.9)
+    ),
+    url("../images/temple-footer.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 15px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-right: 20px;
+  text-align: left;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+footer a {
+  color: white;
+  opacity: 0.8;
+  font-size: 17px;
+}
 @media (max-width: 900px) {
   h1 {
     font-weight: 600;
