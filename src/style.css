@@ -1,6 +1,7 @@
 body {
   background: rgba(20, 45, 76, 0.9);
   font-family: "Noto Sans", sans-serif;
+  margin: 0;
 }
 .container {
   max-width: 1400px;
