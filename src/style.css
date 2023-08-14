@@ -5,6 +5,9 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/kuala-lumpur-city-centre.jpg");
@@ -55,13 +58,17 @@ header a:hover {
   background: black;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.things-to-do {
+  background: #dbd8e3;
 }
 .responsive-image {
-  max-width: 100%;
+  width: 100%;
 }
+
 main {
   background: white;
 }
@@ -70,14 +77,19 @@ main h2 {
   color: #272044;
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.5;
   letter-spacing: 5px;
+  color: #9ba6a5;
 }
 main h3 {
   font-size: 30px;
 }
 main p {
+  font-size: 20px;
+}
+main h4,
+h5 {
   font-size: 20px;
 }
 .grid {
@@ -87,8 +99,18 @@ main p {
 .grid-two-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-three-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-three-columns-footer {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.card {
+  background: white;
+  margin: 0 auto;
+}
+.card-content {
+  padding: 0 20px;
 }
 footer {
   color: white;
