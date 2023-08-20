@@ -172,4 +172,7 @@ footer a {
   .grid-three-columns-footer {
     grid-template-columns: 1fr;
   }
+  body {
+    overflow-x: auto;
+  }
 }
